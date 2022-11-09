@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]
 
-CORS_ORIGIN_WHITELIST = ('http://127.0.0.1:5500','https://ceomarin.github.io/frontend/')
+CORS_ORIGIN_WHITELIST = ('http://127.0.0.1:5500','https://ceomarin.github.io')
 
 ROOT_URLCONF = 'backend.urls'
 
